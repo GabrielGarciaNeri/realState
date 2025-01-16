@@ -4,11 +4,25 @@
     margin: 0;
     padding: 0;
 }
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    flex: 1;
+}
+h2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
 a{
     text-decoration: none;
     padding: 10px;
 }
-
 p{
     line-height: 2;
 }
@@ -111,4 +125,81 @@ img{
     width: 75%;
     text-align: center;
     margin: 20px;
+}
+
+/*contact*/
+.contact-header{
+    background-color: orange;
+    background-size: cover;
+    min-height: 300px;
+    text-align: center;
+    color: black;
+    padding-top: 50px;
+}
+.contact-header a{
+    color: black;
+}
+.contact-text{
+    text-align: center;
+}
+.contact-text p{
+    font-size: 14px;
+    line-height: 1.5;
+}
+.contact-form{
+    margin-top: 30px;
+    background-color: #dedede;
+    padding: 10px;
+    border-radius: 10px;
+}
+fieldset{
+    border: 1px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+legend{
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+.form-control{
+    display: flex;
+    margin: 20px;
+}
+.form-control label{
+    width: 25%;
+}
+.form-control input,
+.form-control textarea,
+.form-control select{
+    width: 60%;
+}
+.contact-footer{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    background-color: #dedede;
+    margin-top: 20px;
+    align-items: center;
+}
+.contact-footer label{
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    width: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.footer-span{
+    text-decoration: underline;
+    font-weight: bold !important;
+}
+.fieldset-contact{
+    height: 300px;
+}
+.contact-legend{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
 }
