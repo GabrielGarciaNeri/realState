@@ -1,0 +1,116 @@
+/*global*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    height: 100%;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightslategray;
+}
+main{
+    flex: 1;
+}
+a{
+    text-decoration: none;
+    padding: 10px;
+}
+/*header*/
+.header-style{
+    background-color: black;
+    background-size: cover;
+    min-height: 30px;
+    text-align: center;
+    color: white;
+}
+.menu-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu a{
+    margin-right: 30px;
+    color: white;
+}
+/*Main top*/
+.main-top{
+    background-image: url(realEstate-img-main/HD-wallpaper-looking-up-at-colorful-skyscrapers-up-view-colors-lights-night-skyscrapers.jpg);
+    background-size: cover;
+    min-height: 250px;
+    text-align: center;
+    color: #fccb06;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-top h2{
+    font-size: 40px;
+    border-bottom: 4px solid white;
+    width: 40%;
+}
+.main-top h3{
+    font-size: 40px;
+    width: 40%;
+}
+.main-info{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-bottom: 8px solid darkgrey;
+    border-left: 5px solid darkgray;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    height: 250px;
+    border-radius: 10px;
+}
+.main-info img{
+    border-radius: 15px;
+    height: 230px;
+    padding-top: 10px;
+    padding-left: 10px;
+    width: 300px;
+}
+.main-info-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 10px;
+}
+.main-info-text h3{
+    font-size: 35px;
+    color: green;
+    padding-bottom: 20px;
+    margin-top: -5px;
+    text-decoration: underline;
+}
+.main-info-text a{
+    color: white;
+    background-color: orange;
+    width: 80px;
+    align-self: flex-end;
+}
+/*Footer*/
+.footer-info{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 23px;
+    height: 150px;
+}
+.footer-info label{
+    margin-right: 25px;
+}
