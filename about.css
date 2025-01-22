@@ -25,7 +25,7 @@ a{
     background-size: cover;
     min-height: 30px;
     text-align: center;
-    color: white;
+    color:lightblue;
 }
 .menu-bar{
     display: flex;
@@ -36,7 +36,7 @@ a{
 }
 .menu a{
     margin-right: 30px;
-    color: white;
+    color: lightblue;
 }
 /*body*/
 .main-body-top{
